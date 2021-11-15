@@ -1,3 +1,5 @@
+module Regex where
+
 -- Regex Datatype --
 data Regex = Phi | Eps | C Char | -- empty regex, characters
              Plus   [Regex] |     -- union
